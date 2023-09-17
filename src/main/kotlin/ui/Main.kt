@@ -6,21 +6,21 @@ import ui.DI
 fun main(){
 val  adapter = DI.createFitnesClubAdapter()
     // Первое задание
-    println(adapter.PrintInfoClientById(1))
-    println(adapter.PrintInfoClientById(11))
+    println(adapter.printInfoClientById(1))
+    println(adapter.printInfoClientById(11))
 
     // Второе задание
-    println(adapter.PrintInfoTicketById(3))
-    println(adapter.PrintInfoTicketById(23))
+    println(adapter.printInfoTicketById(3))
+    println(adapter.printInfoTicketById(23))
 
     //   Третье задание
-    println(adapter.PrintInfoAllPriceOfSoldTicket())
+    println(adapter.printInfoAllPriceOfSoldTicket())
 
     // Четвёртое задание
-    println(adapter.PrintTheMostPopularTrainer())
+    println(adapter.printTheMostPopularTrainer())
 
       // Пятое задание
-    println(adapter.PrintClientStatus(2))
-    println(adapter.PrintClientStatus(7))
-    println(adapter.PrintClientStatus(29))
+    println(adapter.printClientStatus(2))
+    println(adapter.printClientStatus(7))
+    println(adapter.printClientStatus(29))
 }
